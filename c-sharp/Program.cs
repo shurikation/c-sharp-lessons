@@ -1,13 +1,13 @@
 ﻿using System;
 
-namespace HelloWorld
+namespace DataTypes
 {
 	class Program
-	{
+	{	
+		//Точка входа в программу
 		static void Main(string[] args)
 		{
-			Console.WriteLine("Hello world!");
-			Console.WriteLine("Привет мир!");
+
 		}
 	}
 }
@@ -23,6 +23,10 @@ namespace HelloWorld
  *белые юзинги испольуются, серые - нет
  *Так, класс Console подключается из пространства имени System
  *Если не подключено System, то придется писать System.Console.WriteLine("Hello world!");
- *
- *
+ */
+
+/*
+ *  Типы данных
+ *  Object - особый тип и все другие типы наследуются от него
+ *  Dynamic
  */
