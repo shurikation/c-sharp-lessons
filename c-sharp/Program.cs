@@ -6,24 +6,15 @@ namespace Lessons
 	{	
 		static void Main(string[] args)
 		{
-			int b = 5;
-			b = 100;
+			string data;
+			char smile = ')';
+			data = Console.ReadLine();
 
-			bool variable = false;
-			bool Variable = true;
-
-			double someNumber = 1.44;
-
-			char a = '✛';
-
-			
-			Console.WriteLine(b);
-	
-		
+			Console.WriteLine("Привет, " + data + " :)");
 		}
 	}
 }
 
 /*
-
+ В С# поддерживается юникод - нет проблем с анг-русским языком
 */
