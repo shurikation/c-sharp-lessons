@@ -17,7 +17,7 @@ namespace Lessons
 
 			//Для числа с плавающей точкой
 			string str2 = "5.9";
-			double a = double.Parse(str2);
+			double a2 = double.Parse(str2);
 
 			//Может быть как с точкой, так и с запятой в заивисмоти о региональных настроек
 			NumberFormatInfo numberFormatInfo = new NumberFormatInfo()
@@ -42,14 +42,14 @@ namespace Lessons
 			}
 
 			//Или tryparse - который не бросает исключения в случае ошибки в отличие от parse or convert
-			int a2;
+			int a3;
 
-			int.TryParse(str, out a2); //out - перемеенная будет инициализирована внутри метода и возвращена
+			int.TryParse(str, out a3); //out - перемеенная будет инициализирована внутри метода и возвращена
 
 			//Если он не сможет распарсить, то в a2 уйдет 0 - значение по умолчанию
 			//Поэтому лучше вернуть булевый результат
 
-			bool result = int.TryParse(str, out a2);
+			bool result = int.TryParse(str, out a3);
 			if(result)
 			{
 				Console.WriteLine("Succeces!");
