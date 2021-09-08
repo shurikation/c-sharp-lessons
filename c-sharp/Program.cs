@@ -9,15 +9,17 @@ namespace Lessons
 	{
 		static void Main(string[] args)
 		{
-			int a; 
-			int b;
+			double UsdToRub = 66.39;
+			double UsdToUah = 27.24;
+			double USD;
 
-			Console.ReadLine(a);
-			Console.ReadLine(b);
+			Console.WriteLine("Enter USD: ");
 
-			double c = ((double)a + b) / 2;
+			USD = double.Parse(Console.ReadLine());
 
-			Console.WriteLine(c);
+			Console.WriteLine(USD + "in UAH =" + USD * UsdToUah);
+			Console.WriteLine(USD + "in RUB =" + USD * UsdToRub);
+
 			Console.ReadLine();
 		}
 	}
