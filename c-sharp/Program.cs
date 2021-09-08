@@ -9,21 +9,16 @@ namespace Lessons
 	{
 		static void Main(string[] args)
 		{
-			double a = 2; //нужно одну перемнную привести к дабл
-			int b = 5;
+			int a; 
+			int b;
 
-			double result = (double) a / b; //int не хранит дробную часть
-			//мы выполняем приведение к типу (double)
-			Console.WriteLine(result);
+			Console.ReadLine(a);
+			Console.ReadLine(b);
 
-			int a1 = 10;
-			int b1 = 3;
+			double c = ((double)a + b) / 2;
 
-			//int или просто число это int32, даже если число 5 не присовено в переменную
-			int c = a + 5;
-
-			int result1 = a1 % b1; //остаток от деления
-
+			Console.WriteLine(c);
+			Console.ReadLine();
 		}
 	}
 
